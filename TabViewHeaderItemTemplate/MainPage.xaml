@@ -14,15 +14,13 @@
                            TabBarBackground="HotPink" >
             <tabView:SfTabView.HeaderItemTemplate>
                 <DataTemplate>
-                    <ScrollView>
-                        <HorizontalStackLayout Spacing="2">
-                            <Label FontAttributes="Bold"  
+                    <HorizontalStackLayout Spacing="2">
+                        <Label FontAttributes="Bold"  
                                    WidthRequest="70"
                                    HorizontalTextAlignment="Center"
                                    VerticalTextAlignment="Center"
                                    Text="{Binding Name}"/>
-                        </HorizontalStackLayout>
-                    </ScrollView>
+                    </HorizontalStackLayout>
                 </DataTemplate>
             </tabView:SfTabView.HeaderItemTemplate>
 

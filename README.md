@@ -1,14 +1,9 @@
-**Overview**
-In some scenarios, you may need to ensure that all tab items in the [.NET MAUI TabView](https://www.syncfusion.com/maui-controls/maui-tab-view) control have equal width while allowing users to scroll horizontally to access items that exceed the visible area. This can be achieved by customizing the [HeaderItemTemplate](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TabView.SfTabView.html#Syncfusion_Maui_TabView_SfTabView_HeaderItemTemplate) in the TabView.
-
-The following steps will guide you on how to create equal-width tab items and enable horizontal scrolling in the .NET MAUI TabView:
-
-**Implementation Steps**
+In this article, you can learn about how to create equal-width tab items and enable horizontal scrolling to access items that exceed the visible area in the [.NET MAUI TabView](https://www.syncfusion.com/maui-controls/maui-tab-view). This can be achieved by customizing the [HeaderItemTemplate](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.TabView.SfTabView.html#Syncfusion_Maui_TabView_SfTabView_HeaderItemTemplate) in the TabView.
 
 To create a TabView with equal width for all tab items and enable horizontal scrolling, follow these steps:
+
 1. **Define the TabView**: Start by defining the `TabView` in your XAML.
-2. **Set the HeaderItemTemplate**: Use the `HeaderItemTemplate` to specify how each tab item should be displayed. This template will allow you to set a common width for all tab items.
-3. **Enable Scrolling**: Wrap the tab items in a `ScrollView` to enable horizontal scrolling when the number of items exceeds the visible area.
+2. **Set the HeaderItemTemplate**: Use the `HeaderItemTemplate` to specify how each tab item should be displayed. This template will allow you to set a common width for all tab items and enable horizontal scrolling when the number of items exceeds the visible area.
 
 Here is an example of how to implement this:
 
@@ -59,15 +54,13 @@ public class ViewModel : INotifyPropertyChanged
                    ItemsSource="{Binding TabHeaderCollection}">
     <tabView:SfTabView.HeaderItemTemplate>
         <DataTemplate>
-            <ScrollView>
-                <HorizontalStackLayout Spacing="2">
-                    <Label FontAttributes="Bold" 
-                           WidthRequest="70"
-                           HorizontalTextAlignment="Center"
-                           VerticalTextAlignment="Center"
-                           Text="{Binding Name}"/>
-                </HorizontalStackLayout>
-            </ScrollView>
+            <HorizontalStackLayout Spacing="2">
+                <Label FontAttributes="Bold" 
+                       WidthRequest="70"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"
+                       Text="{Binding Name}"/>
+            </HorizontalStackLayout>
         </DataTemplate>
     </tabView:SfTabView.HeaderItemTemplate>
     <tabView:SfTabView.Items>
@@ -81,7 +74,7 @@ public class ViewModel : INotifyPropertyChanged
 </tabView:SfTabView>
 ```
 
-By following the above steps, you can create a Syncfusion TabView with equal-width tab items and horizontal scrolling functionality. This enhances the user experience by allowing easy navigation through multiple-tabs.
+By following the above steps, you can create a Syncfusion TabView with equal-width tab items and horizontal scrolling functionality. This enhances the user experience by allowing easy navigation through multiple tabs.
 
 **Output**
 
