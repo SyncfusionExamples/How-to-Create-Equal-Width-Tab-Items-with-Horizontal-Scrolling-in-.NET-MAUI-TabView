@@ -118,27 +118,32 @@
                 </tabView:SfTabItem>
                 <tabView:SfTabItem x:Name="more">
                     <tabView:SfTabItem.Content>
-                        <Grid BackgroundColor="Red"/>
+                        <Label Text="More Content" HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"/>
                     </tabView:SfTabItem.Content>
                 </tabView:SfTabItem>
                 <tabView:SfTabItem x:Name="help">
                     <tabView:SfTabItem.Content>
-                        <Grid BackgroundColor="Green"/>
+                        <Label Text="Help Content" HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"/>
                     </tabView:SfTabItem.Content>
                 </tabView:SfTabItem>
                 <tabView:SfTabItem x:Name="info">
                     <tabView:SfTabItem.Content>
-                        <Grid BackgroundColor="LightBlue"/>
+                        <Label Text="Infor Content" HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"/>
                     </tabView:SfTabItem.Content>
                 </tabView:SfTabItem>
                 <tabView:SfTabItem x:Name="about">
                     <tabView:SfTabItem.Content>
-                        <Grid BackgroundColor="Beige"/>
+                        <Label Text="About Content" HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"/>
                     </tabView:SfTabItem.Content>
                 </tabView:SfTabItem>
                 <tabView:SfTabItem x:Name="settings">
                     <tabView:SfTabItem.Content>
-                        <Grid BackgroundColor="MistyRose"/>
+                        <Label Text="Settings Content" HorizontalTextAlignment="Center"
+                               VerticalTextAlignment="Center"/>
                     </tabView:SfTabItem.Content>
                 </tabView:SfTabItem>
             </tabView:SfTabView.Items>
