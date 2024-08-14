@@ -78,4 +78,4 @@ By following the above steps, you can create a Syncfusion TabView with equal-wid
 
 **Output**
 
-![TabViewHeaderItemTemplate.gif](https://support.syncfusion.com/kb/agent/attachment/article/17124/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI4MjY4Iiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.osrFaKzEaaChH3dYfxtcZyunnvgsSC7WxCEiUr64wCk)
+![TabViewHeaderItemTemplate.gif](https://support.syncfusion.com/kb/agent/attachment/article/17124/inline?token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI4Mjg2Iiwib3JnaWQiOiIzIiwiaXNzIjoic3VwcG9ydC5zeW5jZnVzaW9uLmNvbSJ9.GnslrkdN_fVV4kltZeHrdbBI4j89xini2wCusbCmmC8)
